@@ -1,8 +1,13 @@
 nav {
     width: 100%;
     background-color: #26396A;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+
+    /* border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px; */
 
 }
 
@@ -49,6 +54,7 @@ nav {
     will-change: transform;
     z-index: 0;
   }
+
   .landing-header-btn::after {
     background-color: #1C294B;
     border-radius: 3rem;
@@ -65,9 +71,11 @@ nav {
     will-change: transform;
     z-index: -1;
   }
+
   .landing-header-btn:hover::after {
     transform: translate(0, 0);
   }
+
   .landing-header-btn:hover {
     border: 2px solid transparent;
     color: white;
