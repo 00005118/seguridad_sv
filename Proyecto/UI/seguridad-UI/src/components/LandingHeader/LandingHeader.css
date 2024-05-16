@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1C294B ;
+
+}
+
+.landing-nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 60px;
+}
+
+.landing-nav a {
+    color: inherit;
+} 
