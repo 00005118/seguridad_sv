@@ -9,10 +9,12 @@ const LandingPage = () => {
   return (
     <div>
         <LandingHeader/>
-        <div className="container">
-            <LandingWelcome/>
+        <LandingWelcome/>
+        {/* <div className="container">
+            <LandingTitle subTitle='Our program' title='What we offer'/>      
+            <Programs/>
+      </div> */}
 
-        </div>
     </div>
   )
 }

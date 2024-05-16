@@ -1,6 +1,9 @@
 nav {
     width: 100%;
     background-color: #26396A;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
 }
 
 .landing-nav {
@@ -13,9 +16,9 @@ nav {
 
 .landing-nav ul {
     margin: 5px 20px;
-
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -32,25 +35,6 @@ nav {
     
 }
 
-
-/* .log-in-btn {
-    background: #FFF;
-    color: #212121;
-    padding: 14px 25px;
-    font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.log-in-btn:hover{
-
-} */
-
 .landing-header-btn {
     border: 2px solid currentColor;
     border-radius: 3rem;
@@ -58,7 +42,7 @@ nav {
     color: #1C294B;
     font-size: 16px;
     overflow: hidden;
-    padding: 0.7rem 2rem;
+    padding: 0.5rem 2rem;
     position: relative;
     text-decoration: none;
     transition: 0.2s transform ease-in-out;
