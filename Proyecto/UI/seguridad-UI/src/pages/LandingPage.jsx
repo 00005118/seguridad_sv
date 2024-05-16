@@ -2,15 +2,17 @@ import React from 'react'
 import './styles/LandingPage.css'
 import { Link } from "react-router-dom";
 import LandingHeader from "../components/LandingHeader/LandingHeader";
+import LandingWelcome from '../components/LandingWelcome/LandingWelcome';
 
 
 const LandingPage = () => {
   return (
     <div>
         <LandingHeader/>
-        <h1>Bienvenido</h1>
+        <div className="container">
+            <LandingWelcome/>
 
-        {/* <Link to='/about'><button>Go to about!</button></Link> */}
+        </div>
     </div>
   )
 }

@@ -12,11 +12,9 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<LandingPage />}></Route>
           <Route path='/home' element={<LandingPage />}></Route>
           <Route path='/login' element={<LogIn />}></Route>
           <Route path='*' element={<NoPage />}></Route>
-
         </Routes>
       </BrowserRouter>
     </div>
