@@ -81,7 +81,7 @@ background-color:#990000
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
     nav .menu {
         display: flex;
     }

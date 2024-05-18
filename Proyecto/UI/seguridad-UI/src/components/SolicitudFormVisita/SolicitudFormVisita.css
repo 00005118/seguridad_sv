@@ -1,0 +1,138 @@
+.form-container{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 100%;
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+  
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #26396A;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #1C294B;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    background: lightgray;
+    border-radius: 6px;
+}
+
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 30px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px;
+}
+
+.forgot-password {
+    margin-top: 16px;
+    color: #797979;
+    font-size: 16px;
+
+}
+
+.forgot-password span {
+    cursor: pointer;
+    color: #1C294B;
+}
+/* 26396A
+1C294B */
+
+.submit-container {
+    display: flex;
+    margin: 10px auto;
+}
+
+
+.log-in-btn {
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    background-color: #26396A;
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 1rem 4rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+  }
+
+
+
+
+  .log-in-btn:hover {
+    border: 2px solid transparent;
+    background-color: #1C294B;
+    color: white;
+    transform: scale(1.05);
+    will-change: transform;
+  }
+
+
+@media screen and (max-width: 600px) {
+    .input {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 60vw;
+        height: 60px;
+        background: lightgray;
+        border-radius: 6px;
+    }
+    
+}
+
+.error-message {
+    color: #cc0000;
+}
+
+form p {
+    margin-bottom: 0;
+    padding-left: 47px;
+}

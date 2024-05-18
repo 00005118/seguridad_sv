@@ -27,7 +27,7 @@ const NormalResidentHeader = () => {
           <NavLink to="/historial-solicitud">Historial</NavLink>
         </li>
         <li>
-          <NavLink to="/home"><button className="log-out-button">Log out</button></NavLink>
+          <NavLink to="/"><button className="log-out-button">Log out</button></NavLink>
         </li>
       </ul>
     </nav>
