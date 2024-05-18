@@ -5,7 +5,7 @@ import './LandingWelcome.css'
 const LandingWelcome = () => {
   return (
     <div className='welcome-information container'>
-        <div className="text">
+        <div className="text-welcome">
             <h1>Bienvenido</h1>
             <p>Descubre cómo nuestra solución de seguridad residencial garantiza la protección de tu hogar y la tranquilidad de tu familia, con tecnología avanzada y servicio confiable las 24 horas.</p>
         </div>
