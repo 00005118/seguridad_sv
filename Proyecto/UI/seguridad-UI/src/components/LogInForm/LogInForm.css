@@ -82,7 +82,7 @@
 
 .submit-container {
     display: flex;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 
@@ -124,4 +124,8 @@
         border-radius: 6px;
     }
     
+}
+
+.error-message {
+    color: #cc0000;
 }
