@@ -13,7 +13,6 @@ const NormalResident = () => {
         <h2>Bienvenido, eres reconocido como residente</h2>
         <p>Información del usuario...</p>
       </div>
-
     </div>
   )
 }
