@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import LandingHeader from "../components/LandingHeader/LandingHeader";
 import LandingWelcome from '../components/LandingWelcome/LandingWelcome';
 import LandingTitle from '../components/LandingTitle/LandingTitle';
 import LandingCards from '../components/LandingCards/LandingCards';
 
 const LandingPage = () => {
+
+  useEffect(() => {
+    document.title = 'Home';
+}, []); 
   return (
     <div>
         <LandingHeader/>

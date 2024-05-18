@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './LogInForm.css'
 import email_icon from '../../assets/email.png'
 import password_icon from '../../assets/password.png'
@@ -45,7 +45,7 @@ const LogInForm = () => {
             <img src={password_icon} alt="" />
             <input type="password" name='user-password' placeholder='Password' value={password} onChange={e => setPassword(e.target.value)} required />
           </div>
-          <div className="forgot-password">Lost Password? <span><u>Click Here</u></span></div>
+          <div className="forgot-password">Lost Password? <Link to='/forgot-password'><span><u>Click Here</u></span></Link></div>
 
 
           <div className="submit-container">
