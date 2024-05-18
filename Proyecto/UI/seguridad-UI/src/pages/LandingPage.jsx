@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import LandingHeader from "../components/LandingHeader/LandingHeader";
 import LandingWelcome from '../components/LandingWelcome/LandingWelcome';
 import LandingTitle from '../components/LandingTitle/LandingTitle';
