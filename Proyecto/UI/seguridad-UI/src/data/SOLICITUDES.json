@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre-visita": "Juan Pérez",
+        "emitida-por": "Carlos García",
+        "fecha-visita": "2024-05-20",
+        "hora-visita": "10:00",
+        "estado": "Pendiente"
+    },
+    {
+        "id": 2,
+        "nombre-visita": "Ana López",
+        "emitida-por": "María Rodríguez",
+        "fecha-visita": "2024-05-21",
+        "hora-visita": "14:00",
+        "estado": "Aprobada"
+    },
+    {
+        "id": 3,
+        "nombre-visita": "Luis Gómez",
+        "emitida-por": "Jorge Martínez",
+        "fecha-visita": "2024-05-22",
+        "hora-visita": "16:00",
+        "estado": "Rechazada"
+    },
+    {
+        "id": 4,
+        "nombre-visita": "Carla Fernández",
+        "emitida-por": "Lucía Díaz",
+        "fecha-visita": "2024-05-23",
+        "hora-visita": "09:30",
+        "estado": "Pendiente"
+    },
+    {
+        "id": 5,
+        "nombre-visita": "Miguel Sánchez",
+        "emitida-por": "Pedro Alonso",
+        "fecha-visita": "2024-05-24",
+        "hora-visita": "11:15",
+        "estado": "Aprobada"
+    }
+]   
