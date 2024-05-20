@@ -16,3 +16,8 @@ body {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.text-table-header {
+  margin-top: 38px;
+  text-align: center;
+}

@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import './SolicitudFormVisita.css'
 import user_icon from '../../assets/person.png'
 import date_icon from '../../assets/date2.png'
-import password_icon from '../../assets/password.png'
 import dui_icon from '../../assets/DUI.png'
 import clock_icon from '../../assets/clock.png'
 import { users } from '../../data/Users.js'
@@ -19,7 +18,6 @@ const SolicitudFormVisita = () => {
         if (user) {
             setError('');
             console.log('Usuario autenticado:', user);
-            navigate('/resident-landing');
         } else {
             setError('Usuario o contraseña incorrectos');
         }

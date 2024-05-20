@@ -7,6 +7,9 @@ const HistorialSolicitud = () => {
     <div>
       <NormalResidentHeader />
       <div className='container'>
+          <div className="text-table-header">
+            <h1>Historial de solicitudes</h1>
+          </div>
           <SentSolicitudesTable />
       </div>
     </div>

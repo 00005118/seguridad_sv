@@ -16,7 +16,17 @@ const LogInForm = () => {
     if (user) {
       setError('');
       console.log('Usuario autenticado:', user);
-      navigate('/resident-landing');
+      console.log(user.role);
+
+      if (user.role === 'residente-n') {
+        navigate('/resident-landing');
+
+      } else if (user.role === 'visitante') {
+        navigate('/visitante-landing');
+      } else if (user.role === 'vigilante') {
+        navigate('/vigilante-landing');
+      }
+      
     } else {
       setError('Usuario o contraseña incorrectos');
     }

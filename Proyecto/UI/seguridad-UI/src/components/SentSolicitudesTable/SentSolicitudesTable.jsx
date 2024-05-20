@@ -27,6 +27,7 @@ const SentSolicitudesTable = () => {
     const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data });
 
     return (
+        
         <div className='table'>
             <div className="table-container">
                 <table {...getTableProps()}>
