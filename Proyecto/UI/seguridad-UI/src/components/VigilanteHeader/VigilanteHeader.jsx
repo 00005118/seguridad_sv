@@ -6,7 +6,7 @@ const VigilanteHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="user-nav-bar">
       <Link to="/vigilante-landing" className="title">
         Vigilante
       </Link>

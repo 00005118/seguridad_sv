@@ -13,6 +13,12 @@
     border-bottom-left-radius: 16px;
 }
 
+
+.app-logo {
+    width: 800px;  /* Ajusta el ancho según tus necesidades */
+    height: auto;  /* Mantiene la proporción del logo */
+  }
+
 .text-welcome{
     text-align: center;
     max-width: 800px;
