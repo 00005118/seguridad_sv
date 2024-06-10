@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre-vigilante": "John Doe"
+    },
+    {
+        "id": 2,
+        "nombre-vigilante": "Jane Doe"
+    },
+    {
+        "id": 3,
+        "nombre-vigilante": "John Smith"
+    },
+    {
+        "id": 4,
+        "nombre-vigilante": "Jane Smith"
+    },
+    {
+        "id": 5,
+        "nombre-vigilante": "John Johnson"
+    },
+    {
+        "id": 6,
+        "nombre-vigilante": "Jane Johnson"
+    },
+    {
+        "id": 7,
+        "nombre-vigilante": "John Brown"
+    },
+    {
+        "id": 8,
+        "nombre-vigilante": "Jane Brown"
+    },
+    {
+        "id": 9,
+        "nombre-vigilante": "John White"
+    },
+    {
+        "id": 10,
+        "nombre-vigilante": "Jane White"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre-residente": "Juan Pérez",
+        "emitida-por": "Carlos García",
+        "fecha-entrada": "2024-05-20",
+        "hora-entrada": "10:00",
+        "estado": "Pendiente"
+    },
+    {
+        "id": 2,
+        "nombre-residente": "Ana López",
+        "emitida-por": "María Rodríguez",
+        "fecha-entrada": "2024-05-21",
+        "hora-entrada": "14:00",
+        "estado": "Aprobada"
+    },
+    {
+        "id": 3,
+        "nombre-residente": "Luis Gómez",
+        "emitida-por": "Jorge Martínez",
+        "fecha-entrada": "2024-05-22",
+        "hora-entrada": "16:00",
+        "estado": "Rechazada"
+    },
+    {
+        "id": 4,
+        "nombre-residente": "Carla Fernández",
+        "emitida-por": "Lucía Díaz",
+        "fecha-entrada": "2024-05-23",
+        "hora-entrada": "09:30",
+        "estado": "Pendiente"
+    },
+    {
+        "id": 5,
+        "nombre-residente": "Miguel Sánchez",
+        "emitida-por": "Pedro Alonso",
+        "fecha-entrada": "2024-05-24",
+        "hora-entrada": "11:15",
+        "estado": "Aprobada"
+    }
+]   
