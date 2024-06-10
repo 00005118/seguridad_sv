@@ -20,6 +20,12 @@ import HistorialPermisosEResidente from './pages/SuperResident/HistorialPermisos
 import NuevoResidente from './pages/SuperResident/NuevoResidente'
 import MiHogar from './pages/SuperResident/MiHogar'
 import EResidentPermisos from './pages/SuperResident/EResidentPermisos'
+import Admin from './pages/Admin/Admin'
+import HistorialEntradas from './pages/Admin/HistorialEntradas'
+import Hogares from './pages/Admin/Hogares'
+import Vigilantes from './pages/Admin/Vigilantes'
+import Terminales from './pages/Admin/Terminales'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -50,7 +56,11 @@ function App() {
           <Route path='/residente-encargado-historial' element={<HistorialPermisosEResidente />}></Route>
           <Route path='/residente-encargado-nuevo-residente' element={<NuevoResidente />}></Route>
           <Route path='/residente-encargado-mi-hogar' element={<MiHogar />}></Route>
-
+          <Route path='/admin' element={<Admin />}></Route>
+          <Route path='/admin/historial-entradas' element={<HistorialEntradas />}></Route>
+          <Route path='/admin/hogares' element={<Hogares />}></Route>
+          <Route path='/admin/vigilantes' element={<Vigilantes />}></Route>
+          <Route path='/admin/terminales' element={<Terminales />}></Route>
 
           <Route path='*' element={<NoPage />}></Route>
         </Routes>

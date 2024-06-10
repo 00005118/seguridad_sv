@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import "./VisitaHeader.css";
 import { Link, NavLink } from "react-router-dom";
+import '../styles/NavBar.css'
+
 
 const VisitaHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="user-nav-bar">
       <Link to="/visitante-landing" className="title">
         Visitante
       </Link>

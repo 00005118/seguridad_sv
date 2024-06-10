@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-
-import "./NormalResidentHeader.css";
+import '../styles/NavBar.css'
 import { Link, NavLink } from "react-router-dom";
 
 const NormalResidentHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="user-nav-bar">
       <Link to="/resident-landing" className="title">
         Home
       </Link>

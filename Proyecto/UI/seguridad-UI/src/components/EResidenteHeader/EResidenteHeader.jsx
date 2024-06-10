@@ -1,6 +1,6 @@
 import React, { useState }from 'react'
 import { Link, NavLink } from "react-router-dom";
-import './EResidenteHeader.css'
+import '../styles/NavBar.css'
 
 
 const EResidenteHeader = () => {
@@ -8,7 +8,7 @@ const EResidenteHeader = () => {
 
     return (
         <div>
-            <nav>
+            <nav className='container user-nav-bar'>
                 <Link to="/residente-encargado-landing" className="title">
                     Home
                 </Link>

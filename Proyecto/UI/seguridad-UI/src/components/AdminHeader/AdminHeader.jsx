@@ -1,12 +1,12 @@
 import React, {useState} from "react";
-import "../AdminHeader/AdminHeader.css";
+import "../styles/NavBar.css";
 import { Link, NavLink } from 'react-router-dom'
 
 export const AdminHeader = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
+    <nav className="user-nav-bar">
         <Link to='/admin' className="title">
           Admin
         </Link>

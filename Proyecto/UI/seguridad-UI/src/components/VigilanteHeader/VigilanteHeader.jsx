@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./VigilanteHeader.css";
+import "../styles/NavBar.css";
 import { Link, NavLink } from "react-router-dom";
 
 const VigilanteHeader = () => {
