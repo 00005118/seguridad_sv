@@ -9,7 +9,7 @@ import card_icon_3 from '../../assets/program-icon-3.png'
 
 const LandingCards = () => {
   return (
-    <div className='programs'>
+    <div className='programs' id='programs'>
         <div className="program">
             <img src={card1} alt="" />
             <div className="caption">

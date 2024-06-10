@@ -8,7 +8,7 @@ const SentSolicitudesTable = () => {
     const columns = React.useMemo(() => [
         {
             Header: "Nombre",
-            accessor: "nombre-visita",
+            accessor: "nombre-visita",  
         },
         {
             Header: "Fecha de visita",

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage'
 import NoPage from './pages/NoPage'
 import './App.css'
@@ -14,6 +14,12 @@ import CodQrVisita from './pages/Visita/CodQrVisita'
 import Vigilante from './pages/Vigilante/Vigilante'
 import ValidarQR from './pages/Vigilante/ValidarQR'
 import EntradaAnonima from './pages/Vigilante/EntradaAnonima'
+import EResidente from './pages/SuperResident/EResidente'
+import CodQrEResidente from './pages/SuperResident/CodQrEResidente'
+import HistorialPermisosEResidente from './pages/SuperResident/HistorialPermisosEResidente'
+import NuevoResidente from './pages/SuperResident/NuevoResidente'
+import MiHogar from './pages/SuperResident/MiHogar'
+import EResidentPermisos from './pages/SuperResident/EResidentPermisos'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,11 +36,20 @@ function App() {
           <Route path='/crear-solicitud' element={<CrearSolicitud />}></Route>
           <Route path='/historial-solicitud' element={<HistorialSolicitud />}></Route>
           <Route path='/codQR' element={<CodQr />}></Route>
+
           <Route path='/visitante-landing' element={<Visita />}></Route>
           <Route path='/visitaCodQR' element={<CodQrVisita />}></Route>
+          
           <Route path='/vigilante-landing' element={<Vigilante />}></Route>
           <Route path='/validarQR' element={<ValidarQR />}></Route>
           <Route path='/entrada-anonima' element={<EntradaAnonima />}></Route>
+
+          <Route path='/residente-encargado-landing' element={<EResidente />}></Route>
+          <Route path='/residente-encargado-permisos' element={<EResidentPermisos />}></Route>
+          <Route path='/residente-encargado-qr' element={<CodQrEResidente />}></Route>
+          <Route path='/residente-encargado-historial' element={<HistorialPermisosEResidente />}></Route>
+          <Route path='/residente-encargado-nuevo-residente' element={<NuevoResidente />}></Route>
+          <Route path='/residente-encargado-mi-hogar' element={<MiHogar />}></Route>
 
 
           <Route path='*' element={<NoPage />}></Route>

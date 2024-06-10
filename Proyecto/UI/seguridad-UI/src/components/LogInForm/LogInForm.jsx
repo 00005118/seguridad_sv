@@ -25,6 +25,8 @@ const LogInForm = () => {
         navigate('/visitante-landing');
       } else if (user.role === 'vigilante') {
         navigate('/vigilante-landing');
+      } else if (user.role === 'residente-en'){
+        navigate('/residente-encargado-landing')
       }
       
     } else {

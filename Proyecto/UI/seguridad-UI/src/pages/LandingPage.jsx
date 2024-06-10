@@ -8,15 +8,14 @@ const LandingPage = () => {
 
   useEffect(() => {
     document.title = 'Home';
-}, []); 
+  }, []);
+
   return (
     <div>
-        <LandingHeader/>
-        <LandingWelcome/>
-        <div className="container">
-            <LandingTitle subTitle='Nuestras especialidades en los campos requeridos' title='Que ofrecemos'/>      
-            <LandingCards/>
-        </div> 
+      <LandingHeader />
+      <LandingWelcome />
+      <LandingTitle subTitle='Nuestras especialidades en los campos requeridos' title='Que ofrecemos' />
+      <LandingCards />
 
     </div>
   )

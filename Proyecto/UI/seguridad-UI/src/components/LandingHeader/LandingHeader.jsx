@@ -6,14 +6,14 @@ const LandingHeader = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-      <nav>
+      <nav className='container landing-nav'>
         <Link to="/" className="title">
           Home
         </Link>
 
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <NavLink to="/about-us">About</NavLink>
+            <a href="#programs">About</a>
           </li>
           <li>
             <NavLink to="/login"><button className='landing-header-btn'>Log in</button></NavLink>
