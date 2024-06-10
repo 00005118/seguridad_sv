@@ -1,0 +1,58 @@
+
+.contact-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1C294B;
+    margin-top: 70px;
+  }
+  
+  .contact-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact-us p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: white;
+    margin-bottom: 64px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .contact-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .contact-item a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
